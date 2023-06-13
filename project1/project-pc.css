@@ -1,0 +1,450 @@
+/* https://gongu.copyright.or.kr/gongu/wrt/wrtCl/listWrtImage.do?menuNo=200018&sortSe=date&wrtTy=&depth2ClSn=&licenseCd=&searchWrd=%ED%95%9C%EA%B5%AD%EC%A0%84%ED%86%B5&pageUnit=24&pageIndex=5 */
+@charset "utf-8";
+@import url(//fonts.googleapis.com/earlyaccess/jejuhallasan.css);
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  z-index: 99;
+  position: fixed;
+  top: 0;
+  background-color: rgb(255, 255, 255);
+  height: 6rem;
+  width: 100%;
+  /* width: 1920px; */
+  display: flex;
+}
+header img {
+  position: absolute;
+  margin-right: 60px;
+  margin-top: 5px;
+  right: 75%;
+  height: 90%;
+}
+header .ul1 {
+  position: absolute;
+  right: 10%;
+  display: block;
+  display: flex;
+  line-height: 5rem;
+  justify-content: space-around;
+  width: 60vw;
+  /* width: 70rem; */
+  background-color: #ffffff;
+}
+header .ul1 li {
+  width: 100%;
+  /* display: flex; */
+  /* background-color: violet; */
+}
+header .ul1 a {
+  text-align: center;
+  display: block;
+  height: 6rem;
+  line-height: 6rem;
+  /* background-color: tomato; */
+}
+header .ul2 {
+  font-size: 12px;
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  display: none;
+}
+header .ul2 li {
+  width: 100%;
+}
+header .ul2 li a {
+  /* background-color: tomato; */
+  height: 50px;
+  line-height: 50px;
+}
+header .ul1:hover .ul2 {
+  display: block;
+}
+.video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: rgb(247, 241, 235); */
+}
+.video .youtube {
+  aspect-ratio: 4 / 3;
+  width: 60%;
+  height: 40%;
+  margin-top: 8rem;
+}
+
+.title {
+  margin-top: 100px;
+  position: relative;
+  background-color: violet;
+  height: 100vh;
+  background: url(./images/title.jpg) no-repeat 40% / cover;
+}
+.title .title-txt {
+  position: absolute;
+  top: 35%;
+  left: 35%;
+  font-family: "Jeju Hallasan", cursive;
+  /* transform: translate(0,-50%); */
+  /* background-color: aqua; */
+  color: #ffffff;
+  /* margin-top: 100px; */
+  text-align: center;
+  /* width: 30rem; */
+  /* height: 15rem; */
+}
+/* .title .title-txt h1:nth-of-type(1) {
+  font-size: 2rem;
+}
+.title .title-txt h1:nth-of-type(2) {
+  font-size: 3rem;
+}
+.title .title-txt h1:nth-of-type(3) {
+  font-size: 4rem;
+} */
+.title .title-txt h1:nth-of-type(1) {
+  font-size: 2rem;
+}
+.title .title-txt h1:nth-of-type(2) {
+  font-size: 7rem;
+}
+
+.middle {
+  /* background-color: yellow; */
+  margin-top: 50px;
+  /* position: relative; */
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.middle section {
+  position: relative;
+  height: 900px;
+  width: 1350px;
+  margin: 100px;
+  background-color: blue;
+}
+.middle section img {
+  width: 55vw;
+  margin-left: 350px;
+}
+.middle .sec img {
+  /* position: absolute;
+  right: 250px; */
+  margin-left: 200px;
+}
+.middle section .box {
+  position: absolute;
+  bottom: 0;
+  background-color: rgb(255, 163, 57);
+  /* width: 650px; */
+  width: 35vw;
+  min-height: 30vw;
+  border-radius: 0 30px 0 0;
+  color: #fafaff;
+  /* border: solid 3px #2b2626; */
+}
+.middle section .box .bold {
+  font-size: 3rem;
+  margin: 80px 0 0 60px;
+}
+.middle section .box p {
+  margin-left: 60px;
+  margin-top: 20px;
+}
+.middle section .box .sant1 {
+  font-size: 1.8rem;
+}
+.middle section .box .sant2 {
+  font-size: 1.1rem;
+  margin-top: 20px;
+  line-height: 25px;
+}
+
+.middle section .box .btn {
+  /* margin-top: 120px;
+  margin-left: 28.5rem; */
+  color: rgb(255, 255, 255);
+}
+.middle section .box .btn a {
+  border: #222 solid 1px;
+  border-color: #ffffff;
+  display: block;
+  width: 6rem;
+  height: 2.5rem;
+  text-align: center;
+  line-height: 2.5rem;
+  border-radius: 50px;
+}
+
+/* .middle .sec .box {
+  position: absolute;
+  right: -202px;
+  bottom: 0;
+} */
+/* .middle-img1 {
+}
+.middle-img2 {
+}
+.middle-img3 {
+  position: absolute;
+  right: -200px;
+} */
+.middle section:nth-of-type(1) .box {
+  /* position: absolute; */
+  left: 30px;
+}
+.middle section:nth-of-type(2) .box {
+  position: absolute;
+  right: -202px;
+  bottom: 0;
+  border-radius: 30px 0 0 0;
+}
+
+.middle section:nth-of-type(3) .box {
+  /* position: absolute; */
+  left: 0;
+}
+.background1 {
+  padding: 70px 0;
+  background-color: rgb(241, 232, 221);
+}
+.title-h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 50px;
+}
+aside {
+  /* background-color: sienna; */
+
+  height: 600px;
+  width: 1400px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 0 auto;
+}
+aside .txt {
+  /* background-color: turquoise; */
+  background-color: tomato;
+  position: relative;
+  height: 90%;
+  width: 400px;
+  border-radius: 30px;
+  overflow: hidden;
+}
+aside .txt section {
+  border: 1px solid #222;
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  height: 280px;
+  position: absolute;
+  bottom: 0;
+  border-radius: 30px;
+}
+aside .txt section h3 {
+  font-size: 1.8rem;
+  margin: 20px 0 0 20px;
+}
+aside .txt section h2 {
+  margin-top: 25px;
+  margin-left: 20px;
+  width: 90%;
+  font-size: 1.2rem;
+  /* background-color: violet; */
+}
+
+aside .txt a {
+  /* background-color: tomato; */
+  display: block;
+  border: 1px solid #222;
+  border-radius: 30px;
+  width: 6rem;
+  height: 3rem;
+  text-align: center;
+  line-height: 3rem;
+  margin-left: 270px;
+  margin-top: 40px;
+}
+aside .txt:nth-of-type(1) {
+  background-color: rgb(148, 218, 217);
+}
+aside .txt:nth-of-type(2) {
+  background-color: rgb(179, 149, 110);
+}
+aside .txt:nth-of-type(3) {
+  background-color: rgb(211, 193, 159);
+}
+aside .txt img {
+  width: 500px;
+  position: absolute;
+}
+aside .txt .txt-img {
+  top: -10px;
+  /* left: -50px; */
+  left: -20px;
+  width: 440px;
+}
+aside .txt .txt-img2 {
+  width: 400px;
+}
+.btn-plus {
+  margin: 55px 0 100px 0;
+}
+.btn-plus a {
+  /* background-color: blueviolet; */
+  width: 20rem;
+  height: 4.5rem;
+  border: 1px solid #222;
+  border-radius: 50px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+.plus-container {
+  /* width: 1800px; */
+  max-width: 80%;
+  /* min-width: 70%; */
+  margin: 0 auto;
+  /* margin-top: 5rem a; */
+  display: flex;
+  /* justify-content: space-evenly; */
+  position: relative;
+}
+.plus {
+  position: relative;
+  background-color: tomato;
+  width: 53rem;
+  height: 13rem;
+  border-radius: 40px;
+  margin: 20px;
+}
+.plus-container .btn-1 a {
+  border: 1px solid #222;
+  border-radius: 50px;
+  text-align: center;
+  line-height: 2rem;
+  padding: 1rem 4rem;
+}
+.orange {
+  background-color: orange;
+}
+.grey {
+  background-color: gray;
+}
+
+.plus-container h2 {
+  font-size: 2rem;
+  margin: 30px 0 0 45px;
+}
+.plus-container p:nth-of-type(1) {
+  margin: 10px 0 0 45px;
+}
+.plus-container .btn-1 {
+  position: absolute;
+  right: 20px;
+  /* margin-left: 400px; */
+  margin-top: 35px;
+}
+
+footer {
+  margin-top: 5rem;
+  background-color: rgb(80, 62, 62);
+  height: 6rem;
+  width: 1920px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.8rem;
+  background-image: url(./images/jejuminsockchonlogo.png);
+  background-repeat: no-repeat;
+  background-position: 275px 10px;
+  color: #ffffff;
+}
+/* footer strong {
+  font-size: 20px;
+}
+footer p {
+  font-size: 15px;
+} */
+footer .ftr {
+  position: relative;
+  margin: 0 auto;
+  width: 1000px;
+  /* background-color: yellowgreen; */
+  height: 80%;
+}
+footer .right {
+  /* background-color: violet; */
+  display: flex;
+  /* justify-content: space-evenly; */
+  /* justify-content: space-around; */
+  /* justify-content: space-between; */
+  /* height: 1rem; */
+  line-height: 2rem;
+  width: 30rem;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+footer .right li {
+  width: 100%;
+  position: relative;
+}
+footer .right a {
+  /* border: 1px solid #ffffff; */
+  display: block;
+  /* background-color: blue; */
+  text-align: center;
+}
+footer .right li:nth-of-type(1)::after {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 1rem;
+  position: absolute;
+  right: 0px;
+  top: 9px;
+  background-color: #fff;
+}
+footer .right li:nth-of-type(2)::after {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 1rem;
+  position: absolute;
+  right: 0px;
+  top: 9px;
+  background-color: #fff;
+}
+
+/* footer .bottom {
+  background-color: sienna;
+  position: absolute;
+  bottom: 0;
+  border-top: solid #222 1px;
+  width: 100%;
+  display: flex;
+  padding-top: 1.5rem;
+} */
+footer .bottom ul {
+  display: flex;
+}
+footer .bottom a {
+  /* background-color: turquoise; */
+  padding: 0 10px;
+}
+
+.logo-wrap .logo-wrap .logo-1 {
+  display: none;
+}
+
+footer .ftr img {
+  display: none;
+}
