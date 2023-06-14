@@ -9,34 +9,48 @@ header {
   height: 7vh;
   display: flex;
   position: relative;
-  /* margin-bottom: 10rem; */
+}
+header .material-symbols-outlined {
+  position: absolute;
+  right: 30px;
+  top: 15px;
+  /* display: none; */
 }
 header .ul1 {
-  background-color: tomato;
+  background-color: #fff;
   position: absolute;
   right: 0;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
+  z-index: 9;
   display: none;
-  height: 30rem;
+}
+header .ul1 li:nth-of-type(1) {
+  border-top: none;
 }
 header .ul1 li {
-  border: 1px solid salmon;
-  /* background-color: yellow; */
+  border-top: 1px solid rgb(39, 35, 35);
   width: 6rem;
-  height: 8%;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  font-weight: bold;
+  font-size: 0.9rem;
+  /* display: none; */
+}
+header .ul1 li a {
+  display: block;
 }
 header .ul2 {
   display: none;
 }
 header img {
-  height: 3.3rem;
+  height: 2.5rem;
   margin-left: 45px;
-  margin-top: 8px;
+  margin-top: 9px;
 }
 .title {
-  /* width: 100%; */
   height: 70vh;
   background: url(./images/title.jpg) no-repeat 50% / cover;
   margin-bottom: 50px;
@@ -44,8 +58,7 @@ header img {
 }
 .title-txt {
   position: absolute;
-  top: 18rem;
-  /* display: none; */
+  top: 14.5rem;
   font-family: "Jeju Hallasan", cursive;
   color: #fff;
   text-align: center;
@@ -60,18 +73,15 @@ header img {
 .video {
   display: flex;
   justify-content: center;
-  /* padding: 50p; */
 }
 .video .youtube {
   width: 90%;
   height: 15.3rem;
-  /* margin: 50px; */
 }
 .middle {
   width: 100%;
   margin-top: 50px;
   padding: 80px 0 20px 0;
-  background-color: rgb(255, 163, 57);
   background-color: rgb(255, 158, 48);
 }
 .middle section {
@@ -84,7 +94,6 @@ header img {
   width: 90%;
 }
 .middle section .box {
-  /* background-color: rgb(255, 163, 57); */
   color: #fff;
   width: 90%;
   text-align: center;
@@ -97,23 +106,20 @@ header img {
   justify-content: center;
 }
 .middle section .bold {
-  /* background-color: cadetblue; */
   font-size: 2rem;
   width: 80%;
-  margin: 10px 0;
+  margin: 20px 0;
   font-family: "Noto Sans KR", sans-serif;
   position: relative;
 }
 .middle section .bold::after {
   content: "";
   display: block;
-  background-color: yellow;
   width: 3rem;
   height: 3rem;
   position: absolute;
   top: 2px;
   right: 5%;
-  /* left: 85px; */
   background: url(./images/patten1.png) no-repeat;
   background-size: 50px;
   background-position: 50% 50%;
@@ -126,16 +132,20 @@ header img {
   height: 3rem;
   position: absolute;
   top: 2px;
-  left: 4%;
+  left: 5%;
   background: url(./images/patten1.png) no-repeat;
   background-size: 50px;
   background-position: 50% 50%;
+}
+.middle section .sant1 {
+  font-size: 1.1rem;
 }
 .middle section .sant2 {
   margin: 0 auto;
   width: 280px;
   margin-bottom: 30px;
   font-family: "Nanum Gothic", sans-serif;
+  font-weight: 400;
 }
 .middle section .btn {
   display: none;
@@ -146,6 +156,7 @@ header img {
   justify-content: center;
   font-size: 1.8rem;
   margin: 70px 0;
+  font-weight: 700;
 }
 aside img {
   width: 90%;
@@ -183,8 +194,6 @@ aside .txt section .txt-btn a {
 
 .logo-wrap {
   height: 10rem;
-  /* margin: 100px 0; */
-  /* background-color: tomato; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -192,7 +201,6 @@ aside .txt section .txt-btn a {
 .logo-wrap .logo-1 {
   display: flex;
   justify-content: space-around;
-  /* background-color: yellowgreen; */
   width: 350px;
 }
 .logo-wrap .logo-1 img {
@@ -200,7 +208,6 @@ aside .txt section .txt-btn a {
 }
 
 .plus-container {
-  /* width: 90%; */
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
